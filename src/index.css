@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh !important;
+  width: 100vw !important;
+  background-image: url('./component//pic/wetransfer-self-code-bg-fotor-20240223111938.jpg');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: -2;
+  overflow: hidden !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width:'500px') {
+  body{
+    background-position: center !important;
+  }
 }

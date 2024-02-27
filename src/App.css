@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+
+/* .App{
+    border: 1px solid red;
+    width: inherit;
+    height: 100% !important;
+} */
+
+.box{
+    width: 550px;
+    border-radius: 4px;
+    height: 290px;
+    background: white;
+    margin-top: 14em;
+    padding: 2em;
+    z-index: 22;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.txt{
+    color: #444;
+    font-size: 13px;
+    margin-top: -3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inp{
+    width: 100%;
+    /* outline: 0; */
+    padding: 9px 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inp_wrapper{
+    margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+    color: #fff;
+    outline: none;
+    background: #007AFE;
+    border: 0;
+    margin: 2px;
+    background-color: #007AFE;
+    background: midnightblue;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.frm{
+    margin-top: 2em;
+}
+
+.er_msg{
+    color: #ba1100;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 2px;
+    user-select: none;
+    cursor: default;
+    margin-top: 3px;
+}
+
+.jhnujn{
+    width: 100%;
+    height: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 6em;
+    cursor: pointer;
+    z-index: 1 !important;
+}
+
+.logs{
+    width: 24.3%;
+    height: 43px;
+    top: 0.9em;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1 !important;
+    right: 0;
+}
+
+@media (max-width:'500px') {
+    .box{
+        width: 100vw !important;
+    }
 }
