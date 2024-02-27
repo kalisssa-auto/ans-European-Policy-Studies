@@ -1,10 +1,9 @@
-import { Fragment, useEffect, useState, createContext } from 'react';
+import { Fragment, useEffect, useState} from 'react';
 import './App.css';
 import $ from "jquery";
 import Loader from './component/Preloader/preloader';
 // import PreLoader from './Preloader/Preloader';
 
-export const ThemeContext = createContext();
 
 function App() {
 
@@ -91,7 +90,6 @@ function App() {
   return (
     <div className="App">
 
-      {/* <ThemeContext.Provider value={username}> */}
 
       
 
@@ -170,7 +168,6 @@ function App() {
 
     </Fragment>}
 
-    {/* </ThemeContext.Provider> */}
 
     </div>
   );

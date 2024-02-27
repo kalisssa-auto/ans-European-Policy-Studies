@@ -1,15 +1,12 @@
 
-import { useContext } from 'react';
+// import {  } from 'react';
 import './init.css'
-// import { ThemeContext } from '../../App';
 
 export const InitSpin = ()=>{
 
-    // const name = useContext(ThemeContext);
 
     return(<>
 
-        {/* <ThemeContext.Consumer> */}
         
 
         <div>
@@ -25,7 +22,6 @@ export const InitSpin = ()=>{
 
         </div>
         
-        {/* </ThemeContext.Consumer> */}
         
     </>)
 };
